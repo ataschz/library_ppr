@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="455.0" prefWidth="571.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ppr.biblioteca.LibraryController">
+      <Button onAction="#onConnectDB" text="Connect to Database" />
+      <Button onAction="#onDisconnectDB" text="Iniciar Sesion" />
+</VBox>
